@@ -5,6 +5,7 @@ public class JavaObjectOrientedConcepts {
         // creating an object and instance of ObjectAndClass
         ObjectAndClass objectAndClass = new ObjectAndClass();
         WaysToInitializeObject waysToInitializeObject = new WaysToInitializeObject();
+        WaysToCreateObject waysToCreateObject = new WaysToCreateObject();
 
         // accessing member through reference variable
         objectAndClass.studentName = "Mirza Mahmud Hossan";
@@ -21,5 +22,10 @@ public class JavaObjectOrientedConcepts {
         waysToInitializeObject.byReferenceVariable();
         waysToInitializeObject.byMethod();
         waysToInitializeObject.byConstructor();
+
+        // ----------------- ways to create objects -----------------
+        waysToCreateObject.usingNewKeyword();
+        waysToCreateObject.usingNewInstanceMethod();
+        waysToCreateObject.usingCloneMethod();
     }
 }
